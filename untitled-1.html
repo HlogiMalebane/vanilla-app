@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
     <title>Hlogi app</title>
 </head>
 <header></header>
 <body>
-<form>
-<input type="search" placeholder="Enter a city..." required />
-<input type="submit" value="Search" />
+<div class="weather-app">
+<form class="search-form">
+<input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+<input type="submit" value="Search" class="search-form-button" />
 </form>
 </body>
 </header>
@@ -34,5 +39,6 @@ Humidity: 83%, Wind: 7.2km/h
     code hosted on <a href="https://github.com/hlogimalebane" target="_blank"> GitHub </a> 
     and website hosted on <a href ="https://app.netlify.com/sites/hlogi-weather-app/configuration/general" target="_blank"> Netlify</a>
 </footer>
+</div>
 </body>
 </html>
